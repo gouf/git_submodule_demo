@@ -1,0 +1,3 @@
+[submodule "shindan"]
+	path = shindan
+	url = git@github.com:gouf/shindan.git

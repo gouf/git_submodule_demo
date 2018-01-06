@@ -8,8 +8,8 @@ jobs:
       - run: git submodule sync --recursive
       - run: git submodule update --init
       - run:
-        name: Bundle Install
-        command: bundle install --path vendor/bundle
+          name: Bundle Install
+          command: bundle install --path vendor/bundle
       - run:
-        name: Test Git Submodule Checked Out
-        command: test -e shindan/Gemfile
+          name: Test Git Submodule Checked Out
+          command: test -e shindan/Gemfile
